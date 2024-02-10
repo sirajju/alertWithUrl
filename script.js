@@ -1,1 +1,1 @@
-alert(window.location.pathname)
+alert(new URLSearchParams(window.location.search).get('data))
